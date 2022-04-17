@@ -12,6 +12,7 @@ public class EnemySpawner : MonoBehaviour
     void Start()
     {
         Invoke("Spawn", spawnTime);
+        //if you want enemies to spawning repeatly, use invoke repeating.
     }
 
     // Update is called once per frame
